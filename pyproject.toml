@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "nenc"
+version = "0.1.0"
+description = "NETCONF Event Notification Controller"
+authors = ["Brandon Spendlove <brandon.spendlove@netzeus.io>"]
+license = "Apache License Version 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^1.10.7"
+ncclient = "^0.6.13"
+fastapi = "^0.95.2"
+loguru = "^0.7.0"
+pynetbox = "^7.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
